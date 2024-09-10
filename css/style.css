@@ -649,7 +649,7 @@ INner Pages
 /*-------------------- ------------
  INTRO SECTION
 -----------------------------*/
-#intro {
+#benefits {
   padding-bottom: 0px;
 }
 
@@ -657,7 +657,7 @@ INner Pages
   margin-top: 45px;
 }
 
-#intro .section-heading p {
+#benefits .section-heading p {
   color: #000;
   font-size: 30px;
   line-height: 40px;
@@ -876,7 +876,7 @@ HISTORY MISSION
 }
 
 #service {
-  margin-top: -100px;
+  /* margin-top: -100px; */
   padding-bottom: 70px;
 }
 
@@ -1464,7 +1464,7 @@ BLOG SINGLE
   /*----------------
      INTRO
     ----------------*/
-  #intro {
+  #benefits {
     padding-bottom: 90px;
   }
   /*----------------
@@ -1545,7 +1545,7 @@ BLOG SINGLE
   /*----------------
      INTRO
     ----------------*/
-  #intro {
+  #benefits {
     padding-bottom: 90px;
   }
   /*----------------
@@ -1636,11 +1636,11 @@ BLOG SINGLE
   /*----------------------
      SECTION HEAINDG
     -----------------------*/
-  #intro .section-heading,
+  #benefits .section-heading,
 .section-heading {
     width: 100%;
   }
-  #intro .section-heading p {
+  #benefits .section-heading p {
     font-size: 16px;
     line-height: 28px;
   }
