@@ -214,7 +214,7 @@ h5.subtitle {
 
 .btn-black,
 .btn-hero:hover {
-  background-color: rgb(0, 0, 0);
+  background-color: #7D77FF;
   color: #fff !important;
 }
 
@@ -614,6 +614,24 @@ ul.dropdown-menu li {
   background: url("../images/banner/bg-2.jpg");
   background-size: cover;
   position: relative;
+  /* Ensure content is not overlapped by pseudo-element */
+  overflow: hidden;
+}
+
+.banner-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75); /* Adjust opacity here */
+  z-index: 1; /* Ensure the overlay is on top of the background but below the text */
+}
+
+.banner-1 > * {
+  position: relative;
+  z-index: 2; /* Ensure content is on top of the overlay */
 }
 
 .banner-2 {
