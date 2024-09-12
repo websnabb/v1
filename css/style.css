@@ -613,7 +613,6 @@ ul.dropdown-menu li {
 .banner-1 {
   background: url("../images/banner/bg-2.jpg");
   background-size: cover;
-  position: relative;
   /* Ensure content is not overlapped by pseudo-element */
   overflow: hidden;
 }
