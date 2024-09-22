@@ -31,7 +31,7 @@ body {
   font-weight: 400;
   line-height: 26px;
   font-family: "Rubik", sans-serif;
-  color: #788487;
+  color: #000;
   position: relative;
 }
 
@@ -76,7 +76,7 @@ h6,
 a {
   text-decoration: none;
   transition: all 0.2s;
-  color: #000;
+  color: #635CDB;
 }
 
 img {
@@ -84,8 +84,8 @@ img {
 }
 
 a:hover {
-  color: #635CDB;
-  text-decoration: none;
+  color: #000;
+  text-decoration: double;
 }
 
 a:focus {
@@ -291,10 +291,6 @@ h5.subtitle {
 
 .bg-dark {
   background-color: rgba(0, 0, 0, 0.96);
-}
-
-.bg-feature {
-  background-color: #635CDB;
 }
 
 .bg-primary {
@@ -788,7 +784,7 @@ INner Pages
   float: left;
   margin-bottom: 15px;
   margin-right: 15px;
-  color: #888;
+  color: #000;
 }
 
 .about-list li i {
@@ -899,7 +895,7 @@ HISTORY MISSION
 /*--------------------------
   SERVICE AREA SECTION
 ----------------------*/
-.page-banner-area.page-service {
+.page-banner-area .page-service {
   background: url("../images/bg/bg-2.jpg") no-repeat;
   background-size: cover;
 }
@@ -918,8 +914,9 @@ HISTORY MISSION
 }
 
 #service {
-  /* margin-top: -100px; */
   padding-bottom: 70px;
+  background-color: #635CDB;
+  color: #fff;
 }
 
 .service-box .service-img-icon {
@@ -945,6 +942,7 @@ HISTORY MISSION
   transition: all 0.3s ease 0s;
   border-radius: 5px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  color: #000;
 }
 
 .service-inner {
@@ -1072,7 +1070,7 @@ SERVICE PAGE
 
 .pricing-block:hover i {
   background-image: -webkit-linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
-  background-iamge: -linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
+  background-image: -linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
   color: #fff;
   border: 1px solid #53a0fd;
 }
