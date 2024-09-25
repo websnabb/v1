@@ -1,11 +1,5 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
 
-/*=== MEDIA QUERY ===*/ /*
+/*
 * ----------------------------------------------------------------------------------------
 * 01.GLOBAL CSS STYLE
 * 02.PRELOADER & BOUNCE CCS STYLE
@@ -379,7 +373,7 @@ h5.subtitle {
 }
 
 .navbar-expand-lg.trans-navigation .navbar-nav .nav-link,
-.navbar-expand-lg.site-navigation .navbar-nav .nav-link {
+.n§vbar-expand-lg.site-navigation .navbar-nav .nav-link {
   padding: 0px 24px;
 }
 
@@ -1455,6 +1449,7 @@ BLOG SINGLE
 
 .footer-text p span {
   color: #000;
+  font-weight: 600;
 }
 
 .footer-text p.mail {
