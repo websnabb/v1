@@ -761,7 +761,8 @@ INner Pages
 }
 
 .about-content .subtitle {
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 7px;
   text-transform: uppercase;
 }
 
