@@ -1104,6 +1104,15 @@ PRICING PAGE
   background: #fff;
 }
 
+@media (max-width: 768px) {
+  .img-fluid {
+    width: 70%;
+    height: auto;
+    padding: 10px; /* Adjust as needed */
+  }
+}
+
+
 /*------------------------------------
   TESTIMONIAL AREA SECTION
 ---------------------------------*/
