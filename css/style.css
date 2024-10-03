@@ -1106,7 +1106,7 @@ PRICING PAGE
 
 @media (max-width: 768px) {
   .img-fluid {
-    width: 70%;
+    width: 60%;
     height: auto;
     padding: 10px; /* Adjust as needed */
   }
